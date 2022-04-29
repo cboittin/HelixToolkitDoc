@@ -1,12 +1,12 @@
 # HelixToolkitDoc
 
-Quick and dirty docfx generated from HexlixToolkit's code.
+Quick and dirty documentation for Helix Toolkit generated with docfx.
 
 Generated from release 2.20.2 (Feb 01, 2022) for SharpDX.Wpf
 
 ## Usage
 
-	Clone or download this repository, then open _site/index.html.
+Clone or download this repository, then open _site/index.html.
 
 ## How to generate up to date documentation
 
