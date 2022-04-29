@@ -1,0 +1,57 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+            "files": [
+                "HelixToolkit/HelixToolkit.csproj",
+                "HelixToolkit.Native.ShaderBuilder/HelixToolkit.Native.ShaderBuilder.csproj",
+                "HelixToolkit.Shared/HelixToolkit.Shared.shproj",
+                "HelixToolkit.SharpDX.Assimp.Shared/HelixToolkit.SharpDX.Assimp.Shared.shproj",
+                "HelixToolkit.SharpDX.Core/HelixToolkit.SharpDX.Core.csproj",
+                "HelixToolkit.SharpDX.Core.Assimp/HelixToolkit.SharpDX.Core.Assimp.csproj",
+                "HelixToolkit.SharpDX.Core.Wpf/HelixToolkit.SharpDX.Core.Wpf.csproj",
+                "HelixToolkit.SharpDX.Shared/HelixToolkit.SharpDX.Shared.shproj",
+                "HelixToolkit.SharpDX.SharedModel/HelixToolkit.SharpDX.SharedModel.shproj",
+                "HelixToolkit.Wpf.SharpDX/HelixToolkit.Wpf.SharpDX.csproj",
+                "HelixToolkit.Wpf.SharpDX.Assimp/HelixToolkit.Wpf.SharpDX.Assimp.csproj",
+                "HelixToolkit.Wpf.SharpDX.Shared/HelixToolkit.Wpf.SharpDX.Shared.shproj"
+
+            ],
+          "src": "../Source"
+        }
+      ],
+      "dest": "api",
+      "disableGitFeatures": false,
+      "disableDefaultFilter": false
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "api/**.yml",
+          "api/index.md"
+        ]
+      },
+      {
+        "files": [
+          "toc.yml",
+          "*.md"
+        ]
+      }
+    ],
+    "dest": "_site",
+    "globalMetadataFiles": [],
+    "fileMetadataFiles": [],
+    "template": [
+      "templates/custom"
+    ],
+    "postProcessors": [],
+    "markdownEngineName": "markdig",
+    "noLangKeyword": false,
+    "keepFileLink": false,
+    "cleanupCacheHistory": false,
+    "disableGitFeatures": false
+  }
+}
